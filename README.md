@@ -16,7 +16,7 @@ O programa foca na criação de interfaces modernas, responsivas e orientadas ao
 ## 🗂️ Estrutura do Repositório
 
 - `/desafios-de-codigo`: Resoluções dos desafios práticos de programação e raciocínio lógico.
-- `/desafio-de-criacao`: Atividades práticas envolvendo IA generativa.
+- `/treinos-em-react`: Atividades práticas envolvendo IA generativa.
 - `/projeto-final`: O projeto principal reunindo todo o aprendizado, que fará parte do portfólio.
 
 ## 🛠️ Tecnologias Utilizadas
