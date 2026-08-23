@@ -6,9 +6,9 @@ export function Skills(){
 
     return(
     <>
-        <h4>Hard Skills</h4>
+        <h4>Hard Skills: </h4>
         <HardSkills/>
-        <h4>Soft SKills</h4>
+        <h4>Soft SKills: </h4>
         <SoftSkills/>
    </>
     )
