@@ -8,3 +8,10 @@
   transition: border-color 0.3s;
   margin-bottom: 24px;
 }
+
+ul{
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  text-align: center;
+}
