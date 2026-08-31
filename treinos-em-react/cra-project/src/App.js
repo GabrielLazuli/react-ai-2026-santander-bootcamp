@@ -30,10 +30,10 @@ function App() {
 
       {
       produtos.map((produto) => {
-          produto.disponivel ? (   
+          produto.disponivel && (   
             <div key={produto.id}>
                 <Produtos name={produto.nome} descricao={produto.descricao}/>
-            </div> ) : (<></>)
+            </div> )
           
       }
     )
