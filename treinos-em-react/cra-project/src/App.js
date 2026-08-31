@@ -30,13 +30,11 @@ function App() {
 
       {
       produtos.map((produto) => {
-          if(produto.disponivel){
-            return (
+          produto.disponivel ? (   
             <div key={produto.id}>
                 <Produtos name={produto.nome} descricao={produto.descricao}/>
-            </div>
-            )
-          }
+            </div> ) : (<></>)
+          
       }
     )
     }
