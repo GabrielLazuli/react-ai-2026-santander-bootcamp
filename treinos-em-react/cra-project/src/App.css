@@ -24,6 +24,15 @@
   color: white;
 }
 
+.App-header.white{
+    background-color: #ffffff;
+    color: black;
+}
+.App-header.black{
+    background-color: #050505;
+    color: rgb(248, 242, 242);
+}
+
 .App-link {
   color: #61dafb;
 }
@@ -35,4 +44,17 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+button{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color:#020202;
+  background-color: #ffffff81;
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+
+button:hover{
+    background-color: #c8c1c181;
+
 }

@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import './App.css';
 import Produtos from './components/Produtos';
 
@@ -23,10 +24,23 @@ const produtos = [
 ]
 
 function App() {
+
+  const [tema, setTema] = useState('black');
+
+  function alterarTema(){
+      setTema( () => tema === "black" ? "white" : "black")
+  
+  }  
+
   return (
     <div className="App">
-      <header className="App-header">
-    
+        
+      <header className={`App-header ${tema}`} >
+
+      <button onClick={alterarTema}>
+         Alterar tema
+      </button>
+
       <Produtos/>
 
       </header>

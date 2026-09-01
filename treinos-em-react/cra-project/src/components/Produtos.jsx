@@ -6,11 +6,11 @@ function Produtos(){
 
     const [quantidade, setquantiade] = useState(0);
 
-    return(
+     return(
         <div>
             <p>Quantidade {quantidade}</p>
-            <button onClick={() => setquantiade( quantidade + 1)}>adicionar</button>
-        </div>
+            <button onClick={ () => setquantiade( quantidade + 1)}>adicionar</button>
+        </div>  
     );
 }
 
