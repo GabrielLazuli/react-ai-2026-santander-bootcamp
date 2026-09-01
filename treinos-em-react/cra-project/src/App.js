@@ -27,18 +27,7 @@ function App() {
     <div className="App">
       <header className="App-header">
     
-
-      {
-      produtos.map((produto) => {
-          produto.disponivel && (   
-            <div key={produto.id}>
-                <Produtos name={produto.nome} descricao={produto.descricao}/>
-            </div> )
-          
-      }
-    )
-    }
-      
+      <Produtos/>
 
       </header>
     </div>

@@ -1,10 +1,15 @@
+import { useState } from "react";
 
 
-function Produtos({name, descricao}){
+
+function Produtos(){
+
+    const [quantidade, setquantiade] = useState(0);
+
     return(
         <div>
-            <p>{name}</p>
-            <p>{descricao}</p>
+            <p>Quantidade {quantidade}</p>
+            <button onClick={() => setquantiade( quantidade + 1)}>adicionar</button>
         </div>
     );
 }
